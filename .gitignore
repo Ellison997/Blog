@@ -4,6 +4,7 @@
 # Packages
 node_modules/
 .deploy_git/
+public/
 
 
 #############
@@ -37,3 +38,4 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 .vscode/settings.json
+public/404.html
