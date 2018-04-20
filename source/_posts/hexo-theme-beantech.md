@@ -7,7 +7,7 @@ header-img: "Demo.webp"
 tags:
 - Hexo
 - Blog
-catagories:
+category:
 - Hexo
 ---
 > Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.

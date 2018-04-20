@@ -23,7 +23,7 @@ SEOTitle: 夜色撩人|爱笑科技
 email: chuntian997@gmail.com
 description: "博客、田春乐、技术、互联网"
 keyword: ""
-header-img: img/header_img/home-bg-2-dark.webp
+header-img: img/header_img/home-bg-2-dark.jpg
 signature: true #show signature
 signature-img: img/signature/tianchunle.png 
 
@@ -66,9 +66,9 @@ widgets:
 - featured-tags
 - short-about
 - recent-posts
-- friends-blog
 - archive
-- category
+- friends-blog
+#- category
 
 # widget behavior
 ## Archive
@@ -87,14 +87,8 @@ friends: [
         title: "Aai Xiao",
         href: "https://aixiao.group"
     },{
-        title: "百度",
-        href: "http://baidu.com"
-    },{
         title: "oscchina",
         href: "https://my.oschina.net/u/3430978/blog"
-    },{
-        title: "It Helps SEO",
-        href: "#"
     }
 ]
 
