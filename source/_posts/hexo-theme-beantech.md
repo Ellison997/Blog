@@ -1,18 +1,18 @@
 ---
-title: "[Hexo] Theme 吉娃娃"
+title: "[ooo]  吉娃娃"
 catalog: true
 date: 2018-04-18 10:51:24
-subtitle: "This is hexo theme Demo."
-header-img: "Demo.webp"
+subtitle: "This is ooo  Demo."
+header-img: 
 tags:
-- Hexo
 - Blog
 category:
-- Hexo
+- ooo
 ---
-> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
+
+> Ported  of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless .
 > 
-> This BeanTech theme created by [YuHsuan](http://beantech.org) modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
+> This BeanTech  created by [YuHsuan](http://beantech.org) modified from the original Porter [Kaijun](http://kaijun.rocks/ooo--huxblog/)
 
 ---
 
@@ -25,8 +25,8 @@ Let's begin!!!
 ## Init
 ---
 ```bash
-git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech
-cd hexo-beantech
+git clone https://github.com/YenYuHsuan/ooo--beantech.git ./ooo-beantech
+cd ooo-beantech
 npm install
 ```
 
@@ -82,10 +82,10 @@ home_posts_tag: false
 ![home_posts_tag-false](home_posts_tag-false.png)
 
 ### Markdown render
-My markdown render engine plugin is [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
+My markdown render engine plugin is [ooo-renderer-markdown-it](https://github.com/celsomiranda/ooo-renderer-markdown-it).
 ```yml
 # Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+## Docs: https://github.com/celsomiranda/ooo-renderer-markdown-it/wiki
 markdown:
   render:
     html: true
@@ -105,21 +105,19 @@ async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         };
 ```
 
-## Hexo Basics
+## ooo Basics
 ---
-Some hexo command:
+Some ooo command:
 ```bash
-hexo new post "<post name>" # you can change post to another layout if you want
-hexo clean && hexo generate # generate the static file
-hexo server # run hexo in local environment
-hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
+ooo new post "<post name>" # you can change post to another layout if you want
+ooo clean && ooo generate # generate the static file
+ooo server # run ooo in local environment
+ooo deploy # ooo will push the static files automatically into the specific branch(gh-pages) of your repo!
 ```
 
 # Have fun ^_^ 
 ---
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Place this tag where you want the button to render. -->
+
 
 Please Star this Project if you like it! 
 Peace!
