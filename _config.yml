@@ -173,5 +173,6 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:Mandy997/Mandy997.github.io.git
-  branch: master
+  repo: 
+      github: git@github.com:Mandy997/Mandy997.github.io.git,master 
+      coding: git@git.coding.net:Mandy997/Mandy997.coding.me.git,master 
