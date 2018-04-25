@@ -23,8 +23,9 @@ SEOTitle: 夜色撩人|爱笑科技
 email: chuntian997@gmail.com
 description: "博客、田春乐、技术、互联网"
 keyword: "博客"
-header-img: img/header_img/home-bg-2-dark.jpg
-page-header-img: img/header_img/tag-bg.jpg
+home-header-img: img/header_img/home-bg-2-dark.jpg
+post-header-img: img/header_img/tag-bg.jpg
+archive-header-img: img/header_img/archive-bg.jpg
 signature: true #show signature
 signature-img: img/signature/tianchunle.png 
 

@@ -3,14 +3,15 @@
 <style type="text/css">
     header.intro-header{
         <% if (is_home()) { %>
-            background-image: url('<%= config.root + config["header-img"] %>') 
+            background-image: url('<%= config.root + config["home-header-img"] %>') 
             /*config*/
         <%} else if (is_post()){%>
           <% if (page["header-img"]!=null) { %>
             background-image: url('<%= page["header-img"] %>')
         <%} else {%>
-             background-image: url('<%= config.root + config["page-header-img"] %>')  
-         <%} %>
+             background-image: url('<%= config.root + config["post-header-img"] %>')  
+         <%} } else if (is_archive()){%>
+          background-image: url('<%= config.root + config["archive-header-img"] %>')  
             /*post*/
         <%} else {%>
             background-image: url('<%= config.root + page["header-img"] %>')
