@@ -152,14 +152,18 @@ archive_generator:
 # Markdown-it config
 ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
 markdown:
+  anchors:
+    level: 2
+    permalinkSymbol: ''
   render:
-    html: true
+    html: true        ## 不转义HTML内容
     xhtmlOut: false
-    breaks: true
-    linkify: true
+    breaks: true        ## 文本换行
+    linkify: true       ## 呈现链接
     typographer: true
     quotes: '“”‘’'
-  
+ 
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
