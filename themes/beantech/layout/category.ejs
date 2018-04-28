@@ -1,0 +1,48 @@
+---
+layout: layout
+---
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 分类云 -->
+            <div id='category_cloud' class="categories">
+                <% site.categories.map(function(categorie){  %>
+                    <a href="#<%= categorie.name %>" title="<%= categorie.name %>" rel="<%= categorie.length %>"><%= categorie.name %></a>
+                <% }) %>
+            </div>
+
+            <!-- 分类列表 -->
+
+            <% site.categories.map(function(categorie){  %>
+            <div class="one-category-list">
+                <span class="fa fa-folder-open listing-seperator" id="<%= categorie.name %>">
+                    <span class="category-text"><%= categorie.name %></span>
+                </span>
+                <% categorie.posts.map(function(post){  %>
+                 <div class="post-preview">
+                     <a href="<%- config.root %><%- post.path %>">
+                        <h2 class="post-title">
+                            <%- post.title || "Untitled" %>
+                        </h2>
+                        <% if (post.subtitle && post.subtitle.length) { %>
+                            <h3 class="post-subtitle">
+                                <%- post.subtitle %>
+                            </h3>
+                        <% } %>
+                    </a>
+                
+                </div>
+                <hr>
+                <% }) %>
+            </div>
+            <% }) %>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+

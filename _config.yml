@@ -32,13 +32,11 @@ signature-img: img/signature/tianchunle.png
 
 # SNS settings
 # RSS: false
-weibo_username:     Mandy997
+osc_username: 3430978
 zhihu_username:     tian-chun-le-6
 github_username:    Mandy997
 # twitter_username:   Demonbane_x
 # facebook_username:  Mandy997
-# linkedin_username:  Mandy997  # facebook_username:  Mandy997
-# linkedin_username:  Mandy997
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -70,8 +68,8 @@ widgets:
 - short-about
 - recent-posts
 - archive
+- category
 - friends-blog
-#- category
 
 # widget behavior
 ## Archive

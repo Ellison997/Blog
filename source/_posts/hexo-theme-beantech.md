@@ -7,7 +7,7 @@ header-img:
 tags:
 - Blog
 category:
-- ooo
+- 教程
 ---
 
 > Ported  of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless .
