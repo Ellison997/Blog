@@ -1,6 +1,17 @@
 <!-- Modified by Yu-Hsuan Yen -->
 <!-- Post Header -->
 <style type="text/css">
+header.intro-header:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: yellow;
+    opacity: 0.2;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
     header.intro-header{
         <% if (is_home()) { %>
             background-image: url('<%= config.root + config["home-header-img"] %>') 
@@ -11,9 +22,12 @@
         <%} else {%>
              background-image: url('<%= config.root + config["post-header-img"] %>')  
          <%} } else if (is_archive()){%>
-          background-image: url('<%= config.root + config["archive-header-img"] %>')  
-            /*post*/
-        <%} else {%>
+            background-image: url('<%= config.root + config["archive-header-img"] %>')  
+            /*archive*/
+        <%} else if (is_category()){%>
+            background-image: url('<%= config.root + config["post-header-img"] %>')  
+          /*archive*/
+      <%} else {%>
             background-image: url('<%= config.root + page["header-img"] %>')
             /*page*/
         <%} %>

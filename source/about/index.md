@@ -1,6 +1,6 @@
 ---
 layout: "about"
-title: "关于我"
+title: "About"
 description: "关于我，不知道说点啥好，唉"
 header-img: "img/header_img/Iron-Man-3.jpg"
 comments: false
