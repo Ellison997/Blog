@@ -6,8 +6,14 @@
 title: 夜色撩人
 subtitle: 愿你出走半生，归来仍是少年！
 author: ChunLe Tian
-language:
+language: zh-CN
 timezone:
+
+# SiteTitle
+archives_title: Archives
+archives_subtitle: 挺喜欢技术，但也不愿宅 
+categories_title: Categories
+categories_subtitle: 就会这么点东西，你还有什么借口不去努力
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

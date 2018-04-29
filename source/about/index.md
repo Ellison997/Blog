@@ -1,7 +1,7 @@
 ---
 layout: "about"
 title: "About"
-description: "关于我，不知道说点啥好，唉"
+description: "每天对未来都充满恐惧，所以要在成长的路长不断前行"
 header-img: "img/header_img/Iron-Man-3.jpg"
 comments: false
 ---

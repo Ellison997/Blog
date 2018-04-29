@@ -1,6 +1,6 @@
 ---
 layout: "tag"
 title: "Tags"
-description: "感觉标签改成分类比较好."
+description: "就会这么点东西，你还有什么借口不去努力"
 header-img: "img/header_img/tag-bg.jpg"
 ---

@@ -1,17 +1,7 @@
 <!-- Modified by Yu-Hsuan Yen -->
 <!-- Post Header -->
 <style type="text/css">
-header.intro-header:after{
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    background-color: yellow;
-    opacity: 0.2;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-}
+
     header.intro-header{
         <% if (is_home()) { %>
             background-image: url('<%= config.root + config["home-header-img"] %>') 
@@ -46,6 +36,7 @@ header.intro-header:after{
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <% if (is_post()) { %>
+                    <!--文章-->
                     <div class="post-heading">
                         <div class="tags">
                             <% page.tags.forEach(function(tag){ %>
@@ -59,7 +50,19 @@ header.intro-header:after{
                             <%= page.date.format(config.date_format) %>
                         </span>
                     </div>
-                <% } else { %>
+                <% }else if (is_archive()){%>
+                    <div class="site-heading">
+                        <h1><%= config.archives_title %></h1>
+                        <span class="subheading" style="font-weight:500"><%= config.archives_subtitle %></span>
+                    </div>
+                    <!--archive-->
+                    <%}else if (is_category()){%>
+                    <div class="site-heading">
+                        <h1><%= config.categories_title %></h1>
+                        <span class="subheading" style="font-weight:500"><%= config.categories_subtitle %></span>
+                    </div>
+                    <!--archive-->
+                    <%} else { %>
                     <div class="site-heading">
                         <h1><%= page.title || config.title %></h1>
                         <!--<hr class="small">-->
