@@ -16,4 +16,3 @@ category:
 
 # 新建数据库
 通过PostgreSQL GUI管理工具pgAdmin 创建一个数据库  
-

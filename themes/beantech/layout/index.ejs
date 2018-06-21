@@ -14,7 +14,7 @@ layout: page
             <%- post.subtitle || "" %>
         </h3>
         <div class="post-content-preview">
-            <%- truncate(strip_html(post.content), {length: 160, omission: '...'}) %>...
+            <%- truncate(strip_html(post.content), {length: 160, separator: '，'}) %>
         </div>
     </a>
     <% if (config.home_posts_tag){%>
@@ -24,7 +24,7 @@ layout: page
         </p>
         <div class="tags">
             <% post.tags.forEach(function(tag){ %>
-              <a href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>"><%= tag.name %></a>
+              <a href="<%= config.root %>tag/#<%= tag.name %>" title="<%= tag.name %>"><%= tag.name %></a>
             <% }) %>
         </div>
     <%} else {%>
